@@ -10,7 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <body>
-	<div class="">
+	<div class="navtop">
 		<nav>
 			<div class="navbar navbar-header navbar-dark navbar-expand-lg fixed-top nav1">
 				<div class="row">
@@ -21,7 +21,16 @@
 						<a href=" " class="navbar-brand">ISRO</a>
 					</div>
 				</div>
-				<div class="list">
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#collist">
+					<span class="navbar-toggler-icon"></span>
+					
+				</button>
+
+
+
+
+
+				<div class="collapse navbar-collapse pull-right float-right" id="collist">
 					<ul class="navbar-nav mr-auto">
 						<li class="list-item"><a class="nav-link" href="#">Missions</a></li>
 						<li class="list-item"><a class="nav-link" href="#">Spacecraft</a></li>
@@ -34,9 +43,9 @@
 					</ul>
 				</div>
 
-				<form class="form-inline float-right pull-right">
+				<form class="form-inline ">
 				    <div class="input-group">
-				      	<input type="text" class="form-control pull-right" placeholder="Search.." aria-label="Username" aria-describedby="basic-addon1">
+				      	<input type="text" class="form-control " placeholder="Search.." aria-label="Username" aria-describedby="basic-addon1">
 				    </div>
 				</form>
 			</div>
@@ -44,14 +53,13 @@
 	</div>
 	<div class="crou">
 			<div class="row">
-				<div class="col">
+				<div class="col-12">
 					<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
 					  	<ol class="carousel-indicators">
 						    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 						    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 						    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 						    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-						    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
 					  	</ol>
 					  	<div class="carousel-inner">
 						    <div class="carousel-item active">
@@ -66,14 +74,10 @@
 						    <div class="carousel-item">
 						      	<img src="cr4.jpg" class="d-block w-100" >
 						    </div>
-						    <div class="carousel-item">
-						      	<img src="cr5.png" class="d-block w-100" >
-						    </div>
 						</div>
 					</div>
 				</div>
 			</div>
-
 	</div>
 	<div class="title2">
 		<div class="container">
