@@ -1,147 +1,77 @@
+body{
+	background-image: url("background.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: fixed;
+	overflow-x: hidden;
+
+}
+
+/*-------------------------------navbar----------------------------------------------*/
 .nav1{
 	font-size: 14px;
 	font-weight: bold;
 	background-color: #122;
 	width: 100%;
-}
-.navtop{
-	max-width: 100%;
+	padding:0px;
 }
 .nav1 .input-group .form-control{
 	background-color: #144;
 	color:#ccc;
+	float: right;
 }
+
 .list-item{
 	margin-right: 8px;
 }
 .list{
 	float: left;
 }
-body{
-	background-image: url("background.jpg");
-	background-attachment: fixed;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: fixed;
-	overflow-x: hidden;
-
+#collist{
+	float: right;
 }
-
-#pic1{
-	width:100%;
-	height: auto;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	text-align: center;
-}
-
-.img-fluid:hover{
-	width:95%;
-	background-size: 90%;
-	display: block;
-}
-#bloc{
-	
-	color:black;
-	padding:20px 10px 10px 10px;
-	width:85%;
-	margin-bottom: 50px;
-}
-
-.crou{
-	height: 600px;
-	width:99%;
-}
-.crou .row .col-12{
-	width:100%;
-	margin:0;
-	padding:0;
-}
-.title1{
-	background-color: #111;
-	padding-top: 10px;
-
-}
-.title2{
-		margin-top:71.79px;
-}
-.title3{
-	padding: 20px;
-	
-}
-.updates{
-	background-color: #380838;
-	margin-bottom: 20px;
-}
-.headline{
-	text-align: center;
-	
-}
-.disc{
-	font-weight: bold;
-	color:#aaa;
-}
-hr{
-	border-top: 1px solid rgba(255,255,255,.3);
-}
-.readmore{
-	margin-top:20px;
-	margin-bottom:20px;
-}
-.title4{
-	background-color: #480848;
-	height: 200px;
-
-
-}
-.title5{
-	background-color: #580858;
-	height: 200px;
-}
-.title6{
-	background-color: #680868;
-	height: 200px;
-
-}
-footer{
-	background-color: #122;
-	padding:20px;
-}
-
-a{
-	color:#fff;
-}
-a:hover{
-	color:orange;
-	text-decoration: none;
-}.nav1{
-	font-size: 14px;
-	font-weight: bold;
-	background-color: #122;
+.row1{
+	padding:5px 15px 5px 15px;
 	width: 100%;
 }
-.navtop{
-	max-width: 100%;
+
+.row1 .co-logo{
+	width:9%;
+	margin-left: 1%;
+	float:left;
 }
-.nav1 .input-group .form-control{
-	background-color: #144;
-	color:#ccc;
+
+.row1 .co-menu{
+	width:90%;
+	float:left;
 }
-.list-item{
-	margin-right: 8px;
-}
-.list{
+.row1 .co-3{
+	width:20%;
 	float: left;
 }
-body{
-	background-image: url("background.jpg");
-	background-attachment: fixed;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: fixed;
-	overflow-x: hidden;
-
+.row1 .co-9{
+	width:80%;
+	float: left;
 }
+/*-------------------------------carousel----------------------------------------------*/
+
+.crou{
+	height: 600px;
+	width:100%;
+}
+.crou .row .col-12{
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+
+/*-------------------------------title2 pictures----------------------------------------------*/
+.title2{
+		margin-top:71.79px;
+}
+
 
 #pic1{
 	width:100%;
@@ -150,37 +80,22 @@ body{
 	background-repeat: no-repeat;
 	text-align: center;
 }
-
-.img-fluid:hover{
-	width:95%;
-	background-size: 90%;
+#bloc:hover{
 	display: block;
+	padding: 18px;
 }
 #bloc{
 	
 	color:black;
-	padding:20px 10px 10px 10px;
+	padding:10px 10px 10px 10px;
 	width:85%;
 	margin-bottom: 50px;
 }
 
-.crou{
-	height: 600px;
-	width:99%;
-}
-.crou .row .col-12{
-	width:100%;
-	margin:0;
-	padding:0;
-}
-.title1{
-	background-color: #111;
-	padding-top: 10px;
 
-}
-.title2{
-		margin-top:71.79px;
-}
+
+/*-------------------------------title3 updates----------------------------------------------*/
+
 .title3{
 	padding: 20px;
 	
@@ -204,21 +119,10 @@ hr{
 	margin-top:20px;
 	margin-bottom:20px;
 }
-.title4{
-	background-color: #480848;
-	height: 200px;
 
 
-}
-.title5{
-	background-color: #580858;
-	height: 200px;
-}
-.title6{
-	background-color: #680868;
-	height: 200px;
+/*-------------------------------footer----------------------------------------------*/
 
-}
 footer{
 	background-color: #122;
 	padding:20px;
@@ -231,3 +135,14 @@ a:hover{
 	color:orange;
 	text-decoration: none;
 }
+
+
+
+/*-------------------------------detail title1--------------------------------------------*/
+
+.title1{
+	background-color: #111;
+	padding-top: 10px;
+
+}
+
